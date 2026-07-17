@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Charu Khati — Data Analyst portfolio. SQL, Python, Power BI, Excel, Tableau. Turning raw data into actionable insights.">
+    <meta name="keywords" content="Charu Khati, Data Analyst, Portfolio, SQL, Python, Power BI, Excel, Tableau, Data Science">
+    <meta name="author" content="Charu Khati">
+    <title>Charu Khati | Data Analyst — SQL, Python, Power BI, Excel, Tableau</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <span class="preloader-logo">CK</span>
+            <div class="preloader-bar"><div class="preloader-bar-fill"></div></div>
+        </div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#landing" class="logo">CK</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#landing" class="nav-link nav-active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- SECTION 1: LANDING                         -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section id="landing" class="section landing-section">
+        <canvas id="particles-bg"></canvas>
+        <div class="landing-glow landing-glow-1"></div>
+        <div class="landing-glow landing-glow-2"></div>
+
+        <div class="hero-content">
+            <div class="hero-badge reveal">
+                <span class="hero-badge-dot"></span>
+                Currently seeking opportunities
+            </div>
+            <h1 class="hero-title reveal delay-1">Charu Khati</h1>
+            <p class="hero-subtitle reveal delay-2" data-text="Data Analyst | SQL, Python, Power BI, Excel, Tableau"></p>
+            <p class="hero-description reveal delay-3">
+                I'm a recent graduate with B.Sc.(Hons.) Computer Science with Reasearch and an aspiring Data Analyst who turns messy,
+                real-world datasets into insights businesses can actually act on. Across six independent
+                projects, I've cleaned and analyzed over 30,000 records using SQL, Python, and Power BI,
+                uncovering patterns in customer behaviour, sales performance, and market trends. My strength
+                is attention to detail — I don't just visualize numbers, I verify them before I trust them.
+                I'm currently a Reliance Foundation Undergraduate Scholar, and I've completed applied
+                simulations with Tata Group and Deloitte in GenAI-powered risk analysis and forensic
+                analytics. I help transform raw data into actionable insights that support informed decision-making.
+                Let's connect to discuss how I can contribute to your team.
+            </p>
+            <div class="hero-buttons reveal delay-4">
+                <a href="#about" class="btn btn-primary">
+                    <i data-lucide="user" class="btn-icon"></i>
+                    Learn More About Me
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i data-lucide="send" class="btn-icon"></i>
+                    Get In Touch
+                </a>
+            </div>
+            <div class="social-icons reveal delay-5">
+                <a href="https://github.com/CharuKhati" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+                    <i data-lucide="github"></i>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+                    <i data-lucide="linkedin"></i>
+                </a>
+                <a href="mailto:charukhati2005@gmail.com" class="social-icon" aria-label="Email">
+                    <i data-lucide="mail"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="scroll-indicator reveal delay-5">
+            <span>Scroll</span>
+            <div class="scroll-indicator-line"></div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- SECTION 2: ABOUT ME                        -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle reveal">Get To Know Me</span>
+                <h2 class="section-title reveal delay-1">About Me</h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text reveal-left">
+                    <p class="about-description">
+                        I'm Charu Khati, a recent B.Sc. (Hons.) with Research in Computer Science graduate 
+                        from the University of Delhi, aspiring to build a career in Data Analytics. 
+                        My work centers on data cleaning, exploratory data analysis, SQL querying, 
+                        and building interactive dashboards that transform complex data into clear, actionable insights. 
+                        I primarily work with Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn), SQL, Power BI, Tableau,and Excel
+                    </p>
+                    <p class="about-description">
+                        What sets me apart is my analytical approach—I believe every dataset must earn my trust 
+                        before it tells a story. I clean, validate, and explore data thoroughly to ensure insights 
+                        are accurate and meaningful. I've combined academic excellence with hands-on experience 
+                        through industry simulations at Tata Group and Deloitte, working on GenAI-driven risk scoring 
+                        and forensic fraud analysis. I'm now seeking a full-time Data Analyst opportunity where 
+                        I can apply my technical skills, curiosity, and problem-solving mindset to drive data-informed decisions.
+                    </p>
+                </div>
+                <div class="about-image-wrapper reveal-right">
+                    <div class="about-image-frame">
+                        <img src="C:\Users\charu\OneDrive\Desktop\Your Photo\portfolio_picture.png" alt="Charu Khati — Data Analyst" class="about-image">
+                        <div class="about-image-border"></div>
+                    </div>
+                    <div class="about-image-decoration"></div>
+                </div>
+            </div>
+
+            <div class="mission-vision-grid reveal">
+                <div class="mv-card">
+                    <div class="mv-icon">
+                        <i data-lucide="target"></i>
+                    </div>
+                    <h3 class="mv-title">Mission</h3>
+                    <p class="mv-text">
+                        To turn incomplete, inconsistent data into insights that are trustworthy enough
+                        to act on — not just visually impressive.
+                    </p>
+                </div>
+                <div class="mv-card">
+                    <div class="mv-icon">
+                        <i data-lucide="eye"></i>
+                    </div>
+                    <h3 class="mv-title">Vision</h3>
+                    <p class="mv-text">
+                        To grow into a data professional known for accuracy and clarity, someone
+                        teams trust to get the numbers right the first time.
+                    </p>
+                </div>
+            </div>
+
+            <div class="section-links reveal">
+                <a href="#experience" class="section-link-pill">
+                    <i data-lucide="briefcase"></i> Work Experience
+                </a>
+                <a href="#education" class="section-link-pill">
+                    <i data-lucide="graduation-cap"></i> Education
+                </a>
+                <a href="#projects" class="section-link-pill">
+                    <i data-lucide="folder-open"></i> Projects
+                </a>
+                <a href="#skills" class="section-link-pill">
+                    <i data-lucide="zap"></i> Skills
+                </a>
+                <a href="#certifications" class="section-link-pill">
+                    <i data-lucide="award"></i> Certifications
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- SECTION 3: WORK EXPERIENCE                 -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section id="experience" class="section experience-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle reveal">Where I've Contributed</span>
+                <h2 class="section-title reveal delay-1">Work Experience</h2>
+            </div>
+
+            <div class="timeline">
+                <!-- Timeline Line -->
+                <div class="timeline-line"></div>
+
+                <!-- Card 1: Tata Group -->
+                <div class="timeline-item reveal-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-card-header">
+                            <div>
+                                <h3 class="timeline-role">GenAI-Powered Data Analytics Simulation</h3>
+                                <p class="timeline-company">Tata Group <span class="via">(via Forage)</span></p>
+                            </div>
+                            <span class="badge badge-simulation">Simulation</span>
+                        </div>
+                        <div class="timeline-meta">
+                            <span><i data-lucide="map-pin"></i> Remote</span>
+                            <span><i data-lucide="calendar"></i> June 2025</span>
+                        </div>
+                        <div class="timeline-body">
+                            <h4>Key Responsibilities</h4>
+                            <ul>
+                                <li>Audited data quality on a simulated credit dataset</li>
+                                <li>Used GenAI tools to surface financial risk indicators</li>
+                                <li>Designed a no-code delinquency risk-scoring framework</li>
+                                <li>Aligned scoring logic with regulatory compliance principles</li>
+                            </ul>
+                            <h4>Key Achievements</h4>
+                            <ul class="achievements-list">
+                                <li>Built a risk-scoring framework without writing code, using GenAI tooling end-to-end</li>
+                                <li>Identified data quality issues that directly informed the risk model's reliability</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2: Deloitte -->
+                <div class="timeline-item reveal-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-card-header">
+                            <div>
+                                <h3 class="timeline-role">Data Analytics Simulation (Forensic Technology)</h3>
+                                <p class="timeline-company">Deloitte <span class="via">(via Forage)</span></p>
+                            </div>
+                            <span class="badge badge-simulation">Simulation</span>
+                        </div>
+                        <div class="timeline-meta">
+                            <span><i data-lucide="map-pin"></i> Remote</span>
+                            <span><i data-lucide="calendar"></i> February 2026</span>
+                        </div>
+                        <div class="timeline-body">
+                            <h4>Key Responsibilities</h4>
+                            <ul>
+                                <li>Analyzed transactional data for anomaly detection</li>
+                                <li>Flagged indicators of potential fraud risk</li>
+                                <li>Built a Tableau dashboard for transaction classification</li>
+                                <li>Used Excel to structure findings for senior management</li>
+                            </ul>
+                            <h4>Key Achievements</h4>
+                            <ul class="achievements-list">
+                                <li>Built a Tableau dashboard that translated raw transaction anomalies into clear business conclusions</li>
+                                <li>Delivered fraud-risk findings in a format usable by senior management</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- SECTION 4: EDUCATION                       -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section id="education" class="section education-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle reveal">Academic Background</span>
+                <h2 class="section-title reveal delay-1">Education</h2>
+            </div>
+
+            <div class="education-grid">
+                <!-- Card 1: Delhi University -->
+                <div class="education-card reveal delay-1">
+                    <div class="education-card-accent"></div>
+                    <div class="education-card-icon">
+                        <i data-lucide="book-open"></i>
+                    </div>
+                    <h3 class="education-degree">B.Sc. (Hons.) with Research, Computer Science</h3>
+                    <p class="education-institution">Delhi University</p>
+                    <div class="education-meta">
+                        <span><i data-lucide="calendar"></i> Nov 2022 – June 2026</span>
+                        <span class="badge badge-mode">Full-time</span>
+                    </div>
+                    <ul class="education-highlights">
+                        <li>Research-intensive Computer Science honours track</li>
+                        <li>Coursework spanning data structures, databases, and applied analytics</li>
+                        <li>Built independent data analytics projects alongside coursework</li>
+                    </ul>
+                </div>
+
+                <!-- Card 2: Reliance Foundation -->
+                <div class="education-card reveal delay-2">
+                    <div class="education-card-accent education-card-accent-amber"></div>
+                    <div class="education-card-icon education-card-icon-amber">
+                        <i data-lucide="award"></i>
+                    </div>
+                    <h3 class="education-degree">Reliance Foundation Undergraduate Scholar</h3>
+                    <p class="education-institution">Reliance Foundation</p>
+                    <div class="education-meta">
+                        <span><i data-lucide="calendar"></i> May 2023 – Present</span>
+                        <span class="badge badge-scholarship">Merit-based Scholarship</span>
+                    </div>
+                    <ul class="education-highlights">
+                        <li>Selected competitively for academic merit</li>
+                        <li>Ongoing support from the organization in many ways</li>
+                        <li>Recognized alongside top-performing undergraduates nationally</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- SECTION 5: PROJECTS                        -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle reveal">What I've Built</span>
+                <h2 class="section-title reveal delay-1">Projects</h2>
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <div class="project-card reveal delay-1">
+                    <div class="project-card-top"></div>
+                    <div class="project-card-body">
+                        <div class="project-type">
+                            <i data-lucide="bar-chart-3"></i>
+                            Independent Analysis Project
+                        </div>
+                        <h3 class="project-title">Customer Shopping Behaviour Analysis</h3>
+                        <span class="project-year">2025</span>
+                        <p class="project-description">
+                            Cleaned and segmented 3,900+ retail transactions using Python, after cleaning, used sqlalchemy, mysql_connector, and getpass
+                            to connect cleaned data to MySQL and there, performed 10+ SQLqueries to understand customer
+                            demographics and purchase behaviour, then built a Power BI dashboard to surface
+                            actionable business recommendations.
+                        </p>
+                        <h4 class="project-outcomes-title">Key Outcomes</h4>
+                        <ul class="project-outcomes">
+                            <li>Cleaned 3,900+ transactions with Python and Pandas</li>
+                            <li>Wrote 10+ SQL queries (joins, subqueries, window functions) for segmentation</li>
+                            <li>Found male customers generated ~2x the revenue of female customers</li>
+                            <li>Discovered only 27% of customers held active subscriptions</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">Power BI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/CharuKhati/Customer-Shopping-Behaviour-Analysis-Dashboard" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i data-lucide="github"></i> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card reveal delay-2">
+                    <div class="project-card-top"></div>
+                    <div class="project-card-body">
+                        <div class="project-type">
+                            <i data-lucide="bar-chart-3"></i>
+                            Independent Analysis Project
+                        </div>
+                        <h3 class="project-title">Diwali Sales Analysis</h3>
+                        <span class="project-year">2025</span>
+                        <p class="project-description">
+                            Cleaned and analyzed over 11,000 customer records to uncover regional and
+                            demographic shopping trends during the Diwali sales season across India.
+                        </p>
+                        <h4 class="project-outcomes-title">Key Outcomes</h4>
+                        <ul class="project-outcomes">
+                            <li>Cleaned 11,239 customer records, removing nulls and blank columns</li>
+                            <li>Built visualizations across 10+ Indian states</li>
+                            <li>Identified married women aged 26–35 in IT, Healthcare, and Aviation as top spenders</li>
+                            <li>Insights directly usable for targeted marketing campaigns</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Seaborn</span>
+                            <span class="tech-tag">Matplotlib</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/CharuKhati/Diwali_sales_analysis" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i data-lucide="github"></i> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card reveal delay-3">
+                    <div class="project-card-top"></div>
+                    <div class="project-card-body">
+                        <div class="project-type">
+                            <i data-lucide="layout-dashboard"></i>
+                            Independent BI Project
+                        </div>
+                        <h3 class="project-title">Classic Models Sales Dashboard</h3>
+                        <span class="project-year">2025</span>
+                        <p class="project-description">
+                            Built an interactive Power BI dashboard for a classic sales dataset, enabling
+                            drill-through profitability analysis by customer, country, and product line.
+                        </p>
+                        <h4 class="project-outcomes-title">Key Outcomes</h4>
+                        <ul class="project-outcomes">
+                            <li>Built toggle navigation between Sales and Net Profit views</li>
+                            <li>Added dynamic date-range and product-line filters using DAX</li>
+                            <li>Designed a decomposition tree linking country, product, and customer to profit</li>
+                            <li>Enabled drill-through tracing profitability to individual accounts</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">Power BI</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">DAX</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/CharuKhati/ClassicModels_SalesDashboard" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i data-lucide="github"></i> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card reveal delay-1">
+                    <div class="project-card-top"></div>
+                    <div class="project-card-body">
+                        <div class="project-type">
+                            <i data-lucide="layout-dashboard"></i>
+                            Independent BI Project
+                        </div>
+                        <h3 class="project-title">Mobile Sales Dashboard</h3>
+                        <span class="project-year">July 2026</span>
+                        <p class="project-description">
+                            Built an interactive Power BI dashboard analyzing mobile sales performance,
+                            customer behaviour, product performance, and transaction trends.
+                        </p>
+                        <h4 class="project-outcomes-title">Key Outcomes</h4>
+                        <ul class="project-outcomes">
+                            <li>Delivered insights across sales performance, customer behaviour, and product trends</li>
+                            <li>Built KPI metrics including Total Sales KPI tracking</li>
+                            <li>Designed interactive visualizations for transaction-level trend analysis</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">Power BI</span>
+                            <span class="tech-tag">Power Query</span>
+                            <span class="tech-tag">DAX</span>
+                            <span class="tech-tag">Dashboard Building</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/CharuKhati/Mobile-Sales-Dashboard" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i data-lucide="github"></i> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card reveal delay-2">
+                    <div class="project-card-top"></div>
+                    <div class="project-card-body">
+                        <div class="project-type">
+                            <i data-lucide="layout-dashboard"></i>
+                            Independent Tableau Project
+                        </div>
+                        <h3 class="project-title">Washington Electric Vehicle Dashboard</h3>
+                        <span class="project-year">June 2026</span>
+                        <p class="project-description">
+                            Built an interactive Tableau dashboard analyzing electric vehicle adoption
+                            across Washington State by vehicle type, manufacturer, county, and model year.
+                        </p>
+                        <h4 class="project-outcomes-title">Key Outcomes</h4>
+                        <ul class="project-outcomes">
+                            <li>Analyzed EV adoption trends across vehicle type and manufacturer</li>
+                            <li>Broke down adoption by county for geographic distribution insights</li>
+                            <li>Tracked adoption trends by model year over time</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">Tableau</span>
+                            <span class="tech-tag">Data Visualization</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://public.tableau.com/app/profile/charu.khati/viz/WashingtonElectricVehicleDashboard_17811966621920/Dashboard1" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i data-lucide="external-link"></i> View on Tableau Public
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card reveal delay-3">
+                    <div class="project-card-top"></div>
+                    <div class="project-card-body">
+                        <div class="project-type">
+                            <i data-lucide="layout-dashboard"></i>
+                            Independent BI Project
+                        </div>
+                        <h3 class="project-title">Netflix Dashboard Using MySQL and Power BI</h3>
+                        <span class="project-year">May 2026</span>
+                        <p class="project-description">
+                            Developed an interactive Netflix content dashboard analyzing 8,800+ movies
+                            and TV shows, with a title-level drill-down page for detailed exploration.
+                        </p>
+                        <h4 class="project-outcomes-title">Key Outcomes</h4>
+                        <ul class="project-outcomes">
+                            <li>Analyzed 8,800+ titles for content growth trends and ratings distribution</li>
+                            <li>Surfaced top genres and country-wise content availability</li>
+                            <li>Built a title-level analysis page (release year, rating, director, cast, category)</li>
+                            <li>Used MySQL and Power BI together to transform raw data into actionable insight</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Power BI</span>
+                            <span class="tech-tag">Data Visualization</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/CharuKhati/Netflix_Dashboard" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i data-lucide="github"></i> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 7 -->
+<div class="project-card reveal delay-3">
+    <div class="project-card-top"></div>
+    <div class="project-card-body">
+        <div class="project-type">
+            <i data-lucide="layout-dashboard"></i>
+            Independent Tableau Project
+        </div>
+
+        <h3 class="project-title">Bike Sales Analysis Dashboard</h3>
+
+        <span class="project-year">June 2026</span>
+
+        <p class="project-description">
+            Developed an interactive Tableau dashboard to analyze global bike sales performance,
+            profitability, customer demographics, and product trends. The dashboard enables users
+            to explore sales by year and country through dynamic filters and interactive visualizations.
+        </p>
+
+        <h4 class="project-outcomes-title">Key Outcomes</h4>
+
+        <ul class="project-outcomes">
+            <li>Analyzed revenue, profit, and year-over-year profit growth using KPI cards.</li>
+            <li>Identified top-selling products by quantity to highlight best-performing bike models.</li>
+            <li>Compared product category sales across customer gender and age groups.</li>
+            <li>Visualized country-wise sales distribution using an interactive geographic map.</li>
+            <li>Enabled dynamic analysis through Year and Country filters for deeper business insights.</li>
+        </ul>
+
+        <div class="project-tech">
+            <span class="tech-tag">Tableau</span>
+            <span class="tech-tag">Data Visualization</span>
+            <span class="tech-tag">Sales Analytics</span>
+            <span class="tech-tag">Business Intelligence</span>
+        </div>
+
+        <div class="project-links">
+            <a href="https://public.tableau.com/app/profile/charu.khati/viz/BikeSalesAnalysisDashboard_17828921392640/SalesDashboard"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="project-link">
+                <i data-lucide="external-link"></i>
+                View on Tableau Public
+            </a>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- SECTION 6: SKILLS                          -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle reveal">Technical Proficiency</span>
+                <h2 class="section-title reveal delay-1">Skills</h2>
+            </div>
+
+            <div class="skills-categories">
+
+                <!-- Category 1: Languages & Databases -->
+                <div class="skill-category reveal delay-1">
+                    <div class="skill-category-header">
+                        <i data-lucide="database"></i>
+                        <h3>Languages &amp; Databases</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">SQL</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-percentage="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-percentage="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">MySQL</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-percentage="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Snowflake</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-percentage="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">C++</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-percentage="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 2: BI & Visualization -->
+                <div class="skill-category reveal delay-2">
+                    <div class="skill-category-header">
+                        <i data-lucide="pie-chart"></i>
+                        <h3>BI &amp; Visualization</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Power BI (Data Modelling, DAX)</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-percentage="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Tableau</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-percentage="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">MS PowerPoint</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-percentage="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 3: Data Analysis & Spreadsheets -->
+                <div class="skill-category reveal delay-3">
+                    <div class="skill-category-header">
+                        <i data-lucide="table-2"></i>
+                        <h3>Data Analysis &amp; Spreadsheets</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">MS Excel (Pivot Tables, Formulas)</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-percentage="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Google Sheets</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-percentage="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Exploratory Data Analysis</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-percentage="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 4: Data Engineering & Science -->
+                <div class="skill-category reveal delay-4">
+                    <div class="skill-category-header">
+                        <i data-lucide="brain-circuit"></i>
+                        <h3>Data Engineering &amp; Science</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Star Schema Design / Fact &amp; Dimension Tables</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-percentage="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Classification &amp; Regression</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-percentage="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Predictive Modelling</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-percentage="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 5: Tools & Collaboration -->
+                <div class="skill-category reveal delay-5">
+                    <div class="skill-category-header">
+                        <i data-lucide="wrench"></i>
+                        <h3>Tools &amp; Collaboration</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Jupyter Notebook / Google Colab</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-percentage="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">GenAI Tools (ChatGPT, Gemini, Claude, Copilot)</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-percentage="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Prompt Engineering</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-percentage="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 6: Documentation and Presentation -->
+                <div class="skill-category reveal delay-3">
+                    <div class="skill-category-header">
+                        <i data-lucide="table-2"></i>
+                        <h3>Documentation &amp; Presentation</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">MS Word</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-percentage="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Google Docs</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-percentage="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">MS Powerpoint</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-percentage="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- SECTION 7: CERTIFICATIONS                  -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section id="certifications" class="section certifications-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle reveal">Continuous Learning</span>
+                <h2 class="section-title reveal delay-1">Certifications</h2>
+            </div>
+
+            <div class="certifications-grid">
+
+                <div class="cert-card reveal delay-1" data-cert="assets/certificates/udemy_data_analysis_cerificate.png">
+                    <div class="cert-image-wrapper">
+                        <div class="cert-placeholder">
+                            <i data-lucide="file-badge"></i>
+                        </div>
+                        <div class="cert-overlay">
+                            <i data-lucide="maximize-2"></i>
+                            <span>View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3 class="cert-title">Data Analysis | SQL, Tableau, Power BI and Excel</h3>
+                        <span class="cert-provider">
+                            <i data-lucide="building-2"></i> Udemy
+                        </span>
+                    </div>
+                </div>
+
+                <div class="cert-card reveal delay-2" data-cert="assets\certificates\udemy_data_manipulation_in_python.png">
+                    <div class="cert-image-wrapper">
+                        <div class="cert-placeholder">
+                            <i data-lucide="file-badge"></i>
+                        </div>
+                        <div class="cert-overlay">
+                            <i data-lucide="maximize-2"></i>
+                            <span>View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3 class="cert-title">Data Manipulation in Python</h3>
+                        <span class="cert-provider">
+                            <i data-lucide="building-2"></i> Udemy
+                        </span>
+                    </div>
+                </div>
+
+                <div class="cert-card reveal delay-3" data-cert="assets\certificates\python_certificate_kaggle.png">
+                    <div class="cert-image-wrapper">
+                        <div class="cert-placeholder">
+                            <i data-lucide="file-badge"></i>
+                        </div>
+                        <div class="cert-overlay">
+                            <i data-lucide="maximize-2"></i>
+                            <span>View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3 class="cert-title">Python</h3>
+                        <span class="cert-provider">
+                            <i data-lucide="building-2"></i> Kaggle
+                        </span>
+                    </div>
+                </div>
+
+                <div class="cert-card reveal delay-1" data-cert="assets\certificates\pandas_certificate_kaggle.png">
+                    <div class="cert-image-wrapper">
+                        <div class="cert-placeholder">
+                            <i data-lucide="file-badge"></i>
+                        </div>
+                        <div class="cert-overlay">
+                            <i data-lucide="maximize-2"></i>
+                            <span>View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3 class="cert-title">Pandas</h3>
+                        <span class="cert-provider">
+                            <i data-lucide="building-2"></i> Kaggle
+                        </span>
+                    </div>
+                </div>
+
+                <div class="cert-card reveal delay-2" data-cert="assets\certificates\data_cleaning_certificate_kaggle.png">
+                    <div class="cert-image-wrapper">
+                        <div class="cert-placeholder">
+                            <i data-lucide="file-badge"></i>
+                        </div>
+                        <div class="cert-overlay">
+                            <i data-lucide="maximize-2"></i>
+                            <span>View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3 class="cert-title">Data Cleaning</h3>
+                        <span class="cert-provider">
+                            <i data-lucide="building-2"></i> Kaggle
+                        </span>
+                    </div>
+                </div>
+
+                <div class="cert-card reveal delay-1" data-cert="assets\certificates\GenAI_powered_data_analytics_job_simulation.png">
+                    <div class="cert-image-wrapper">
+                        <div class="cert-placeholder">
+                            <i data-lucide="file-badge"></i>
+                        </div>
+                        <div class="cert-overlay">
+                            <i data-lucide="maximize-2"></i>
+                            <span>View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3 class="cert-title">GenAI-Powered Data Analytics Job Simulation</h3>
+                        <span class="cert-provider">
+                            <i data-lucide="building-2"></i> Tata Group (Forage)
+                        </span>
+                    </div>
+                </div>
+
+                <div class="cert-card reveal delay-2" data-cert="assets\certificates\data_analytics_job_simulation_deloitte.png">
+                    <div class="cert-image-wrapper">
+                        <div class="cert-placeholder">
+                            <i data-lucide="file-badge"></i>
+                        </div>
+                        <div class="cert-overlay">
+                            <i data-lucide="maximize-2"></i>
+                            <span>View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3 class="cert-title">Data Analytics Job Simulation</h3>
+                        <span class="cert-provider">
+                            <i data-lucide="building-2"></i> Deloitte (Forage)
+                        </span>
+                    </div>
+                </div>
+
+                <div class="cert-card reveal delay-1" data-cert="assets\certificates\naukri_campus_merit_certificate.png">
+                    <div class="cert-image-wrapper">
+                        <div class="cert-placeholder">
+                            <i data-lucide="file-badge"></i>
+                        </div>
+                        <div class="cert-overlay">
+                            <i data-lucide="maximize-2"></i>
+                            <span>View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3 class="cert-title">Naukri Campus Merit Certificate</h3>
+                        <span class="cert-provider">
+                            <i data-lucide="building-2"></i> Naukri Campus
+                        </span>
+                    </div>
+                </div>
+
+                <div class="cert-card reveal delay-2" data-cert="assets\certificates\research_presentation.png">
+                    <div class="cert-image-wrapper">
+                        <div class="cert-placeholder">
+                            <i data-lucide="file-badge"></i>
+                        </div>
+                        <div class="cert-overlay">
+                            <i data-lucide="maximize-2"></i>
+                            <span>View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3 class="cert-title">Research Presentation</h3>
+                        <span class="cert-provider">
+                            <i data-lucide="building-2"></i> University of Delhi
+                        </span>
+                    </div>
+                </div>
+
+                <div class="cert-card reveal delay-3" data-cert="google-data-analytics-ongoing.jpg">
+                    <div class="cert-image-wrapper">
+                        <div class="cert-placeholder">
+                            <i data-lucide="file-badge"></i>
+                        </div>
+                        <div class="cert-overlay">
+                            <i data-lucide="maximize-2"></i>
+                            <span>View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3 class="cert-title">Google Data Analytics Professional Course</h3>
+                        <span class="cert-provider">
+                            <i data-lucide="building-2"></i> Google
+                        </span>
+                        <span class="cert-status cert-ongoing">Ongoing</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificate Modal -->
+    <div class="cert-modal" id="certModal">
+        <div class="cert-modal-overlay"></div>
+        <div class="cert-modal-content">
+            <button class="cert-modal-close" aria-label="Close modal">
+                <i data-lucide="x"></i>
+            </button>
+            <img src="" alt="Certificate" class="cert-modal-image" id="certModalImage">
+        </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- SECTION 8: ACHIEVEMENTS                    -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section id="achievements" class="section achievements-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle reveal">Milestones &amp; Recognition</span>
+                <h2 class="section-title reveal delay-1">Achievements &amp; Recognition</h2>
+                <p class="section-description reveal delay-2">Milestones from academics, applied simulations, and independent projects.</p>
+            </div>
+
+            <!-- Stat Counters -->
+            <div class="stats-grid reveal">
+                <div class="stat-item">
+    <span class="stat-number">2026</span>
+    <span class="stat-label">Graduate</span>
+</div>
+                <div class="stat-item">
+                    <span class="stat-number counter-number" data-target="9" data-suffix="+">0</span>
+                    <span class="stat-label">Certifications (1 Ongoing)</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number counter-number" data-target="6" data-suffix="+">0</span>
+                    <span class="stat-label">Projects</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number counter-number" data-target="4" data-suffix="+">0</span>
+                    <span class="stat-label">Academic Awards</span>
+                </div>
+            </div>
+
+            <!-- Achievement Cards -->
+            <div class="achievements-grid">
+
+                <div class="achievement-card reveal delay-1">
+                    <div class="achievement-card-header">
+                        <span class="category-badge category-academic">Academic</span>
+                        <span class="achievement-year">2023 – Present</span>
+                    </div>
+                    <h3 class="achievement-title">Reliance Foundation Undergraduate Scholar</h3>
+                    <p class="achievement-institution">Reliance Foundation</p>
+                    <p class="achievement-description">
+                        Selected as a merit-based undergraduate scholar, recognized for academic
+                        performance and potential.
+                    </p>
+                </div>
+
+                <div class="achievement-card reveal delay-2">
+                    <div class="achievement-card-header">
+                        <span class="category-badge category-professional">Professional</span>
+                        <span class="achievement-year">2025 – 2026</span>
+                    </div>
+                    <h3 class="achievement-title">Applied Analytics Simulations</h3>
+                    <p class="achievement-institution">Tata Group &amp; Deloitte (via Forage)</p>
+                    <p class="achievement-description">
+                        Completed two industry simulations applying GenAI-driven risk scoring and
+                        forensic fraud analytics to real-world business datasets.
+                    </p>
+                </div>
+
+                <div class="achievement-card reveal delay-3">
+                    <div class="achievement-card-header">
+                        <span class="category-badge category-academic">Academic</span>
+                        <span class="achievement-year">2025</span>
+                    </div>
+                    <h3 class="achievement-title">1st Position — III Year</h3>
+                    <p class="achievement-institution">P.G.D.A.V. College, University of Delhi</p>
+                    <p class="achievement-description">
+                        This prize was awarded to me for scoring the highest CGPA in my CS batch.
+                    </p>
+                </div>
+
+                <div class="achievement-card reveal delay-1">
+                    <div class="achievement-card-header">
+                        <span class="category-badge category-academic">Academic</span>
+                        <span class="achievement-year">2024</span>
+                    </div>
+                    <h3 class="achievement-title">1st Position Award — II Year</h3>
+                    <p class="achievement-institution">P.G.D.A.V. College, University of Delhi</p>
+                    <p class="achievement-description">
+                        After securing 3rd position in first year of my college, I worked harder and achieved the 1st position in my batch the next year.
+                    </p>
+                </div>
+
+                <div class="achievement-card reveal delay-2">
+                    <div class="achievement-card-header">
+                        <span class="category-badge category-academic">Academic</span>
+                        <span class="achievement-year">2024-25</span>
+                    </div>
+                    <h3 class="achievement-title">IQAC Student Representative</h3>
+                    <p class="achievement-institution">IQAC, P.G.D.A.V. College, University of Delhi</p>
+                    <p class="achievement-description">
+                        Actively participated in IQAC meetings, represented student perspectives, 
+                        and supported the planning and execution of quality enhancement programs.
+</p>
+                    </p>
+                </div>
+
+                <div class="achievement-card reveal delay-3">
+                    <div class="achievement-card-header">
+                        <span class="category-badge category-academic">Academic</span>
+                        <span class="achievement-year">2025</span>
+                    </div>
+                    <h3 class="achievement-title">Merit Certificate</h3>
+                    <p class="achievement-institution">Naukri Campus Young Turks</p>
+                    <p class="achievement-description">
+                        Recognized for good performance by achieving a 94.30 percentile in the Naukri Campus Young Turks employability assessment.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- SECTION 9: CONTACT                         -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle reveal">Get In Touch</span>
+                <h2 class="section-title reveal delay-1">Let's Build Something Data-Driven</h2>
+            </div>
+
+            <div class="contact-grid">
+
+                <!-- Left: Contact Form -->
+                <div class="contact-form-wrapper reveal-left">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-input" id="contactName" name="name" required autocomplete="name">
+                            <label for="contactName" class="form-label">Full Name</label>
+                            <div class="form-underline"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" id="contactEmail" name="email" required autocomplete="email">
+                            <label for="contactEmail" class="form-label">Email Address</label>
+                            <div class="form-underline"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" id="contactSubject" name="subject" required>
+                            <label for="contactSubject" class="form-label">Subject</label>
+                            <div class="form-underline"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-input form-textarea" id="contactMessage" name="message" required rows="5"></textarea>
+                            <label for="contactMessage" class="form-label">Message</label>
+                            <div class="form-underline"></div>
+                        </div>
+                        <button type="submit" class="btn btn-send">
+                            <span>Send Message</span>
+                            <i data-lucide="arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Right: Contact Info -->
+                <div class="contact-info reveal-right">
+                    <h3 class="contact-info-title">Contact Information</h3>
+                    <p class="contact-info-subtitle">Feel free to reach out. I'm always open to discussing data, analytics, and new opportunities.</p>
+
+                    <div class="contact-rows">
+                        <a href="mailto:charukhati2005@gmail.com" class="contact-row">
+                            <div class="contact-row-icon">
+                                <i data-lucide="mail"></i>
+                            </div>
+                            <div class="contact-row-text">
+                                <span class="contact-row-label">Email</span>
+                                <span class="contact-row-value">charukhati2005@gmail.com</span>
+                            </div>
+                        </a>
+                        <div class="contact-row">
+                            <div class="contact-row-icon">
+                                <i data-lucide="map-pin"></i>
+                            </div>
+                            <div class="contact-row-text">
+                                <span class="contact-row-label">Location</span>
+                                <span class="contact-row-value">New Delhi, India</span>
+                            </div>
+                        </div>
+                        <a href="https://www.linkedin.com/in/charu-khati-08311924b" target="_blank" rel="noopener noreferrer" class="contact-row">
+                            <div class="contact-row-icon">
+                                <i data-lucide="briefcase"></i>
+                            </div>
+                            <div class="contact-row-text">
+                                <span class="contact-row-label">LinkedIn</span>
+                                <span class="contact-row-value">Connect on LinkedIn</span>
+                            </div>
+                        </a>
+                        <a href="https://github.com/CharuKhati" target="_blank" rel="noopener noreferrer" class="contact-row">
+                            <div class="contact-row-icon">
+                                <i data-lucide="code-2"></i>
+                            </div>
+                            <div class="contact-row-text">
+                                <span class="contact-row-label">GitHub</span>
+                                <span class="contact-row-value">github.com/CharuKhati</span>
+                            </div>
+                        </a>
+                        <a href="https://public.tableau.com/app/profile/charu.khati/vizzes" target="_blank" rel="noopener noreferrer" class="contact-row">
+                            <div class="contact-row-icon">
+                                <i data-lucide="bar-chart-3"></i>
+                            </div>
+                            <div class="contact-row-text">
+                                <span class="contact-row-label">Tableau</span>
+                                <span class="contact-row-value">Tableau Public</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- FOOTER                                     -->
+    <!-- ═══════════════════════════════════════════ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#landing" class="footer-logo">CK</a>
+                <p class="footer-name">Charu Khati</p>
+                <p class="footer-tagline">Cleaning data, building clarity.</p>
+                <div class="footer-socials">
+                    <a href="https://github.com/CharuKhati" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i data-lucide="github"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i data-lucide="linkedin"></i>
+                    </a>
+                    <a href="mailto:charukhati2005@gmail.com" aria-label="Email">
+                        <i data-lucide="mail"></i>
+                    </a>
+                </div>
+                <p class="footer-copyright">&copy; 2026 Charu Khati. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i data-lucide="chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
