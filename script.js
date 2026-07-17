@@ -24,7 +24,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const backToTop    = document.querySelector('.back-to-top');
   const progressBar  = document.querySelector('.progress-bar');
   const preloader    = document.querySelector('.preloader');
-  const contactForm  = document.querySelector('.contact-form');
   const canvas       = document.getElementById('particles-bg');
 
   const NAVBAR_HEIGHT = 80;
@@ -261,40 +260,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  /* ----------------------------------------------------------
-     9.  CONTACT FORM → mailto:
-  ---------------------------------------------------------- */
-  if (contactForm) {
-    contactForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-
-      const name    = contactForm.querySelector('[name="name"]');
-      const email   = contactForm.querySelector('[name="email"]');
-      const subject = contactForm.querySelector('[name="subject"]');
-      const message = contactForm.querySelector('[name="message"]');
-
-      const subjectText = subject ? subject.value : 'Portfolio Contact';
-      const bodyParts = [];
-      if (name)    bodyParts.push(`Name: ${name.value}`);
-      if (email)   bodyParts.push(`Email: ${email.value}`);
-      if (message) bodyParts.push(`\n${message.value}`);
-
-      const mailto = `mailto:?subject=${encodeURIComponent(subjectText)}&body=${encodeURIComponent(bodyParts.join('\n'))}`;
-      window.open(mailto, '_blank');
-
-      // Brief success message
-      const successMsg = document.createElement('p');
-      successMsg.classList.add('form-success');
-      successMsg.textContent = 'Opening your email client…';
-      contactForm.appendChild(successMsg);
-
-      setTimeout(() => successMsg.remove(), 4000);
-      contactForm.reset();
-
-      // Remove any leftover .focused classes
-      contactForm.querySelectorAll('.form-group').forEach(g => g.classList.remove('focused'));
-    });
-  }
 
   /* ----------------------------------------------------------
      10.  FLOATING LABEL ANIMATION
