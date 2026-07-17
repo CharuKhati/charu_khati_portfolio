@@ -25,6 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const progressBar  = document.querySelector('.progress-bar');
   const preloader    = document.querySelector('.preloader');
   const canvas       = document.getElementById('particles-bg');
+  const contactForm  = document.querySelector('.contact-form');
 
   const NAVBAR_HEIGHT = 80;
 

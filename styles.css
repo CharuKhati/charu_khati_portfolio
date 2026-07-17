@@ -434,8 +434,8 @@ body.loaded .preloader {
 }
 
 .hero-subtitle::after {
-    content: '|';
-    animation: blink 1s infinite;
+    
+    display: none;
 }
 
 @keyframes blink {
@@ -1851,6 +1851,10 @@ body.loaded .preloader {
     .contact-form-wrapper {
         padding: 2rem;
     }
+}
+
+.typing-cursor {
+    display: none;
 }
 
 @media (max-width: 480px) {
